@@ -84,7 +84,7 @@ export default function HomeView({ setActiveTab, onSelectService }: HomeViewProp
         {/* Background Image with Dark Linear Gradient Overlays */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/KQ truck image.png"
+            src="/images/KQ truck image.png"
             alt="K&Q Moving and Hauling Heavy Truck"
             className="w-full h-full object-cover object-center opacity-70 select-none pointer-events-none"
             referrerPolicy="no-referrer"
@@ -418,7 +418,7 @@ export default function HomeView({ setActiveTab, onSelectService }: HomeViewProp
           >
             <div className="relative rounded-3xl overflow-hidden aspect-4/3 sm:aspect-video lg:aspect-square shadow-xl group border border-slate-100">
               <img
-                src="/src/assets/images/IMG-20260527-WA0052.jpg"
+                src="/images/IMG-20260527-WA0052.jpg"
                 alt="K&Q Moving crew at work"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -510,7 +510,7 @@ export default function HomeView({ setActiveTab, onSelectService }: HomeViewProp
       {/* 5. CALL TO ACTION BANNER */}
       <section className="bg-slate-900 text-white rounded-3xl max-w-7xl mx-4 sm:mx-6 lg:mx-8 xl:mx-auto overflow-hidden relative">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img src="/src/assets/images/IMG-20260527-WA0060.jpg" alt="" className="w-full h-full object-cover opacity-10" aria-hidden="true" />
+          <img src="/images/IMG-20260527-WA0060.jpg" alt="" className="w-full h-full object-cover opacity-10" aria-hidden="true" />
         </div>
         <div className="relative p-8 sm:p-12 md:p-16 flex flex-col md:flex-row justify-between items-center gap-8 z-10">
           <motion.div

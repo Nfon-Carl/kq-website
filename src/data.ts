@@ -34,7 +34,7 @@ export const SERVICES_DATA = [
       'Careful hardware mapping and zero damage'
     ],
     icon: 'Wrench',
-    image: '/src/assets/images/funiture-assembly.png'
+    image: '/images/funiture-assembly.png'
   },
   {
     type: ServiceType.HEAVY_ITEM,
@@ -49,7 +49,7 @@ export const SERVICES_DATA = [
       'Rigging and multi-worker safety procedures'
     ],
     icon: 'ShieldAlert',
-    image: '/src/assets/images/IMG-20260527-WA0045.jpg'
+    image: '/images/IMG-20260527-WA0045.jpg'
   },
   {
     type: ServiceType.JUNK_REMOVAL,
@@ -64,7 +64,7 @@ export const SERVICES_DATA = [
       'Same-day clean up and sweep'
     ],
     icon: 'Trash2',
-    image: '/src/assets/images/trash-removal.png'
+    image: '/images/trash-removal.png'
   },
   {
     type: ServiceType.LABOUR,
@@ -79,7 +79,7 @@ export const SERVICES_DATA = [
       'Flexible hourly rates and friendly attitude'
     ],
     icon: 'Users',
-    image: '/src/assets/images/IMG-20260527-WA0047.jpg'
+    image: '/images/IMG-20260527-WA0047.jpg'
   }
 ];
 
@@ -97,7 +97,7 @@ export const PACKAGES_DATA: BookingPackage[] = [
     crewSize: 2,
     hasTruck: true,
     minHours: 3,
-    image: '/src/assets/images/kg_hero_truck_1779963213511.png'
+    image: '/images/kg_hero_truck_1779963213511.png'
   },
   {
     id: 'pkg-2',
@@ -112,7 +112,7 @@ export const PACKAGES_DATA: BookingPackage[] = [
     crewSize: 3,
     hasTruck: true,
     minHours: 3,
-    image: '/src/assets/images/Moving Items.png'
+    image: '/images/Moving Items.png'
   },
   {
     id: 'pkg-3',
@@ -127,7 +127,7 @@ export const PACKAGES_DATA: BookingPackage[] = [
     crewSize: 4,
     hasTruck: true,
     minHours: 3,
-    image: '/src/assets/images/Moving Items 2.png'
+    image: '/images/Moving Items 2.png'
   },
   {
     id: 'pkg-4',
@@ -142,7 +142,7 @@ export const PACKAGES_DATA: BookingPackage[] = [
     crewSize: 2,
     hasTruck: false,
     minHours: 2,
-    image: '/src/assets/images/Moving items 3.png'
+    image: '/images/Moving items 3.png'
   }
 ];
 
@@ -188,84 +188,84 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
 export const GALLERY_DATA: GalleryItem[] = [
   {
     id: 'g1',
-    imageUrl: '/src/assets/images/kg_hero_truck_1779963213511.png',
+    imageUrl: '/images/kg_hero_truck_1779963213511.png',
     category: 'moving',
     title: 'K&Q Moving Truck',
     description: 'Our fully equipped 26-foot moving truck ready for action with ramps, pads, and hand trucks.'
   },
   {
     id: 'g2',
-    imageUrl: '/src/assets/images/funiture-assembly.png',
+    imageUrl: '/images/funiture-assembly.png',
     category: 'assembly',
     title: 'Furniture Setup',
     description: 'Detailed assembly of custom modular storage drawers and master bed frames in a residential space.'
   },
   {
     id: 'g3',
-    imageUrl: '/src/assets/images/junk removal.jpg',
+    imageUrl: '/images/junk removal.jpg',
     category: 'hauling',
     title: 'Eco Junk Removal',
     description: 'Responsible sorting and clearance of bulky items and attic storage elements.'
   },
   {
     id: 'g4',
-    imageUrl: '/src/assets/images/IMG-20260527-WA0045.jpg',
+    imageUrl: '/images/IMG-20260527-WA0045.jpg',
     category: 'moving',
     title: 'Heavy Item Relocation',
     description: 'Specialized handling of large, heavy items using professional rigging and lifting equipment.'
   },
   {
     id: 'g5',
-    imageUrl: '/src/assets/images/IMG-20260527-WA0047.jpg',
+    imageUrl: '/images/IMG-20260527-WA0047.jpg',
     category: 'moving',
     title: 'Professional Labour Crew',
     description: 'Our experienced helpers ready to load, unload, or rearrange on your schedule.'
   },
   {
     id: 'g6',
-    imageUrl: '/src/assets/images/IMG-20260527-WA0052.jpg',
+    imageUrl: '/images/IMG-20260527-WA0052.jpg',
     category: 'moving',
     title: 'Residential Move',
     description: 'Full residential relocation handled with care. Wrapping, loading, and placement at the new home.'
   },
   {
     id: 'g7',
-    imageUrl: '/src/assets/images/IMG-20260527-WA0060.jpg',
+    imageUrl: '/images/IMG-20260527-WA0060.jpg',
     category: 'packing',
     title: 'Packing & Wrapping',
     description: 'Items secured with shrink-wrap and moving blankets before transit to prevent any damage.'
   },
   {
     id: 'g8',
-    imageUrl: '/src/assets/images/IMG-20260527-WA00601.jpg',
+    imageUrl: '/images/IMG-20260527-WA00601.jpg',
     category: 'hauling',
     title: 'Haul & Cleanout',
     description: 'Full property cleanout. Garage, basement, and yard debris efficiently cleared and hauled away.'
   },
   {
     id: 'g9',
-    imageUrl: '/src/assets/images/IMG-20260527-WA0061.jpg',
+    imageUrl: '/images/IMG-20260527-WA0061.jpg',
     category: 'moving',
     title: 'Truck Loading',
     description: 'Expert space optimization and secure strapping inside our truck for damage-free transit.'
   },
   {
     id: 'g10',
-    imageUrl: '/src/assets/images/Moving items 4.png',
+    imageUrl: '/images/Moving items 4.png',
     category: 'assembly',
     title: 'On-Site Assembly',
     description: 'Skilled assembly of furniture systems, bed frames, and office equipment at the destination.'
   },
   {
     id: 'g11',
-    imageUrl: '/src/assets/images/IMG-20260527-WA0065.jpg',
+    imageUrl: '/images/IMG-20260527-WA0065.jpg',
     category: 'hauling',
     title: 'Junk & Debris Removal',
     description: 'Fast, eco-conscious disposal of unwanted items including old appliances, furniture, and renovation waste.'
   },
   {
     id: 'g12',
-    imageUrl: '/src/assets/images/IMG-20260527-WA0067.jpg',
+    imageUrl: '/images/IMG-20260527-WA0067.jpg',
     category: 'moving',
     title: 'Move Complete',
     description: 'Job done right. Items placed exactly as requested, home left clean and ready to settle into.'
