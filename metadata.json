@@ -1,0 +1,6 @@
+{
+  "name": "K&Q Moving & Hauling Services",
+  "description": "Professional, reliable, and affordable moving and hauling services for residential and commercial customers. Get a fast quote and book online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
