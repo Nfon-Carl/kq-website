@@ -70,10 +70,10 @@ export default function HomeView({ setActiveTab, onSelectService }: HomeViewProp
   ];
 
   const stats = [
-    { number: '12,500+', label: 'Homes Moved' },
+    { number: '2000+', label: 'Homes Moved' },
     { number: '99.4%', label: 'Satisfaction Rate' },
     { number: '4.9/5', label: 'Average Yelp Review' },
-    { number: '15+', label: 'Years of Experience' }
+    { number: '10+', label: 'Years of Experience' }
   ];
 
   return (
@@ -299,8 +299,7 @@ export default function HomeView({ setActiveTab, onSelectService }: HomeViewProp
                         } else if (service.type === ServiceType.HEAVY_ITEM) {
                           window.location.href = 'https://schedulebility.com/KQMovingHauling?iframe=1&category=17960';
                         } else if (service.type === ServiceType.JUNK_REMOVAL) {
-                          setActiveTab('booking');
-                          window.scrollTo({ top: 0, behavior: 'smooth' });
+                          window.open('https://wa.me/14433247335', '_blank');
                         } else {
                           onSelectService(service.type);
                           setActiveTab('services');
