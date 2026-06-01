@@ -87,6 +87,7 @@ export default function ServicesView({
                   <img
                     src={pkg.image}
                     alt={pkg.title}
+                    loading="lazy"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-linear-to-t from-slate-950/40 via-transparent to-transparent" />
@@ -181,6 +182,8 @@ export default function ServicesView({
               >
                 <button
                   onClick={() => toggleFaq(idx)}
+                  aria-expanded={openFaqIndex === idx}
+                  aria-label={`${openFaqIndex === idx ? 'Collapse' : 'Expand'} answer for: ${faq.question}`}
                   className="w-full flex justify-between items-center p-5 text-left font-sans text-sm sm:text-base font-bold text-slate-950 focus:outline-none hover:bg-slate-50 transition-colors"
                 >
                   <span>{faq.question}</span>

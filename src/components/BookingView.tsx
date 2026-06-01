@@ -498,6 +498,7 @@ export default function BookingView({
 
                   <button
                     onClick={() => handleDeleteInquiry(item.id)}
+                    aria-label={`Delete inquiry ${item.id}`}
                     className="bg-red-50 hover:bg-red-600 hover:text-white text-red-600 p-2 rounded-lg transition-colors"
                     title="Delete log record"
                   >
