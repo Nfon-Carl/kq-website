@@ -418,7 +418,7 @@ export default function HomeView({ setActiveTab, onSelectService }: HomeViewProp
           >
             <div className="relative rounded-3xl overflow-hidden aspect-4/3 sm:aspect-video lg:aspect-square shadow-xl group border border-slate-100">
               <img
-                src="/images/IMG-20260527-WA0052.jpg"
+                src="/images/Moving Items 2.png"
                 alt="K&Q Moving crew at work"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
