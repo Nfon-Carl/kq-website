@@ -19,7 +19,7 @@ export const SERVICES_DATA = [
       'Express apartment and estate relocations'
     ],
     icon: 'Truck',
-    image: 'src/assets/images/KQ truck image.png'
+    image: '/images/KQ truck image.png'
   },
   {
     type: ServiceType.ASSEMBLY,
