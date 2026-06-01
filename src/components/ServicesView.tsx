@@ -127,8 +127,10 @@ export default function ServicesView({
                     >
                       <motion.button
                         onClick={() => {
-                          onSelectPackage(pkg.id);
-                          window.scrollTo({ top: 0, behavior: 'smooth' });
+                          const msg = encodeURIComponent(
+                            `Hi K&Q! I'm interested in the "${pkg.title}" package (${pkg.priceDisplay}). Could you please provide more information and let me know your availability?`
+                          );
+                          window.open(`https://wa.me/14433247335?text=${msg}`, '_blank');
                         }}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.96 }}
