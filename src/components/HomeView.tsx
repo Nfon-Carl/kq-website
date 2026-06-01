@@ -519,21 +519,21 @@ export default function HomeView({ setActiveTab, onSelectService }: HomeViewProp
             className="space-y-3 max-w-2xl text-center md:text-left"
           >
             <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-              Ready to Plan Your Moving Day?
+              See Our Work in Action
             </h3>
             <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-              Get a custom guaranteed estimate! Fill out our basic contact form with your parameters, and we'll reply with a custom-tailored quote.
+              Browse real photos from our moves, hauls, and assembly jobs. See the care and professionalism we bring to every job.
             </p>
           </motion.div>
           <motion.button
-            onClick={() => { setActiveTab('booking'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+            onClick={() => { setActiveTab('gallery'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
             whileHover={{ scale: 1.06, y: -3 }}
             whileTap={{ scale: 0.96 }}
             transition={springBtn}
             className="shrink-0 bg-blue-600 text-white font-bold h-14 px-8 rounded-xl tracking-wide flex items-center justify-center space-x-2 shadow-xl shadow-blue-600/30"
           >
-            <MessageSquare className="h-5 w-5" />
-            <span>Contact Our Team</span>
+            <ArrowRight className="h-5 w-5" />
+            <span>View Our Gallery</span>
           </motion.button>
         </div>
       </section>
